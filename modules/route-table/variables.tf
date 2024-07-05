@@ -1,6 +1,7 @@
 variable "routetable_vpc_id" {
   description = "The VPC where this route is associated to"
-  type = string
+  type        = string
+  nullable    = false
 }
 
 variable "routetable_tags" {

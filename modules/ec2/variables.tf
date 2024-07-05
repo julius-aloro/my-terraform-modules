@@ -36,6 +36,7 @@ variable "instance_key_name" {
 variable "instance_associate_public_ip_address" {
   description = "Determine whether automatically allocate with public IP address"
   default     = false
+  nullable    = true
 }
 
 variable "instance_tags" {

@@ -1,6 +1,7 @@
 variable "igw_vpc_id" {
   description = "VPC to associate this IGW to"
-  type = string
+  type        = string
+  nullable    = false
 }
 
 variable "igw_tags" {
