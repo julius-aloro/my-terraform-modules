@@ -1,0 +1,7 @@
+# Terraform executables and statefiles
+
+environment/dev/.terraform/
+environment/dev/.terraform.lock.hcl
+environment/dev/terraform.tfstate
+environment/dev/terraform.tfstate.backup
+environment/dev/terraform.tfstate.backup
