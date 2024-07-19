@@ -31,13 +31,6 @@ variable "subnets_cidr_blocks" {
       tag_name       = "public-subnet-1"
       tag_created_by = "terraform"
       tag_created_on = "01-01-2024"
-    },
-    "subnet2" = {
-      cidr           = "10.0.0.0/24"
-      az             = "ap-southeast-1a"
-      tag_name       = "public-subnet-2"
-      tag_created_by = "terraform"
-      tag_created_on = "01-01-2024"
     }
   }
 }
